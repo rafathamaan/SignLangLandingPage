@@ -70,8 +70,9 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
   color: var(--text-color);
+  background-blend-mode: darken;
+  background-color: #f1f1f1; margin: 0; padding: 0; display: flex; min-height: 100vh; position: relative; } .background-clip { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; 
 }
 
 h1, h2, h3 {
@@ -154,6 +155,7 @@ img {
 
 .nav__logo {
   display: flex;
+  max-width:15ex;
 }
 
 .nav__toggle {
@@ -233,6 +235,7 @@ img {
   position: absolute;
   top: -16rem;
   right: 1.5rem;
+  left: -4rem;
 }
 
 .home__data {
@@ -247,7 +250,7 @@ img {
   position: absolute;
   top: -4rem;
   left: 1rem;
-  line-height: 6rem;
+  line-height: 7rem;
   font-size: var(--biggest-font-size);
   background: var(--text-gradient);
   color: transparent;
@@ -258,6 +261,8 @@ img {
 .home__subtitle {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-2-5);
+  line-height: 1;
+
 }
 
 .home__title-description {
@@ -652,6 +657,7 @@ img {
   .home__img {
     width: 200px;
     top: -13rem;
+    left: -4rem;
   }
   .home__title {
     top: -4rem;
@@ -693,7 +699,7 @@ img {
   }
   .home__img {
     top: -7rem;
-    left: 0;
+    left: -4rem;
   }
   .specs__img {
     position: initial;
@@ -740,7 +746,7 @@ img {
     height: calc(var(--header-height) + 1.5rem);
   }
   .nav__logo {
-    width: 150px;
+    width: 170px;
 
   }
   .nav__list {
@@ -816,6 +822,7 @@ img {
   .home__img {
     width: 300px;
     top: 10rem;
+    left: -4rem;
   }
   .home__title {
     top: -5rem;
