@@ -184,11 +184,11 @@ img {
   flex-direction: column;
   align-items: center;
   row-gap: 1rem;
+  font-size: 1.5rem;
 }
 
 .nav__link {
   color:#22bb45;
-  font-size: var(--h2-font-size);
   text-transform: uppercase;
   font-weight: var(--font-semi-bold);
   background:white;
@@ -197,17 +197,20 @@ img {
   background-clip: text;
   transition: .4s;
 }
-
+.button:hover{
+  font-size: 1.1rem;
+}
 .nav__link:hover {
   background: #22bb45;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  font-size: 1.2rem;
 }
 
 .nav__close {
   position: absolute;
-  font-size: 1.5rem;
+  font-size: x-large;
   top: 1rem;
   right: 1rem;
   color: #22bb45;
@@ -230,6 +233,7 @@ img {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  font-size: xx-large;
 }
 
 /*=============== HOME ===============*/
@@ -301,9 +305,14 @@ img {
 }
 
 .button:hover {
-  background-color: var(--black-color-alt);
+  /* background-color: var(--black-color-alt); */
+  background-color: #22bb45;
 }
-
+.con{
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
 .button__icon {
   font-size: 1.2rem;
 }
@@ -312,6 +321,7 @@ img {
   display: inline-block;
   align-items: center;
   column-gap: .75rem;
+
 }
 
 /*=============== SPONSOR ===============*/
