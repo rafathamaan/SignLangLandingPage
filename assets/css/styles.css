@@ -157,7 +157,7 @@ img {
 
 .nav__logo {
   display: flex;
-  max-width:15ex;
+
 }
 
 .nav__toggle {
@@ -187,11 +187,11 @@ img {
 }
 
 .nav__link {
-  color: var(--white-color);
+  color:#22bb45;
   font-size: var(--h2-font-size);
   text-transform: uppercase;
   font-weight: var(--font-semi-bold);
-  background: var(--text-gradient);
+  background:white;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -199,7 +199,7 @@ img {
 }
 
 .nav__link:hover {
-  background: var(--white-color);
+  background: #22bb45;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -210,7 +210,7 @@ img {
   font-size: 1.5rem;
   top: 1rem;
   right: 1rem;
-  color: var(--white-color);
+  color: #22bb45;
   cursor: pointer;
 }
 
@@ -226,7 +226,7 @@ img {
 
 /* Active link */
 .active-link {
-  background: var(--white-color);
+  background:#22bb45;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
