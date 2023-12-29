@@ -3,6 +3,7 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3rem;
+  
   /*========== Colors ==========*/
   --hue-color: 206;
   --black-color: hsl(var(--hue-color), 4%, 4%);
@@ -146,6 +147,7 @@ img {
 }
 
 /*=============== NAV ===============*/
+
 .nav {
   height: var(--header-height);
   display: flex;
@@ -173,6 +175,7 @@ img {
     width: 100%;
     padding: 4rem 0 3rem;
     transition: .4s;
+    
   }
 }
 
@@ -257,6 +260,11 @@ img {
   -webkit-background-clip: text;
   background-clip: text;
 }
+.home__footer {
+  text-align: center;
+  background-color: transparent;
+  
+}
 
 .home__subtitle {
   font-size: var(--big-font-size);
@@ -301,7 +309,7 @@ img {
 }
 
 .button--flex {
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   column-gap: .75rem;
 }
@@ -819,6 +827,11 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+  .cc{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       }
   .home__img {
     width: 300px;
     top: 10rem;
